@@ -13,6 +13,7 @@ import { setSidebar } from "../slices/sidebarSlice";
 const MyNavbar = () => {
   const { isOpen } = useSelector((state) => state.sidebar);
   const dispatch = useDispatch();
+  // something
   return (
     <Navbar style={{ display: "flex" }}>
       <Navbar.Brand
